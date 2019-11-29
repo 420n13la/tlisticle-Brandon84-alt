@@ -1,0 +1,140 @@
+**
+ TODO(you): Write the CSS necessary for mylisticle.html
+*/
+header { 	
+		  
+      
+			background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(images/header.jpg);
+      
+
+		}
+body {
+	width: auto;
+	height: auto;
+	background: black;
+
+
+	
+}
+html {background-color: black;}
+
+
+#logo{border-radius: 50%;
+	   
+	  position: absolute;
+		top: 360px;
+		left: 46%;
+    
+}
+
+#alicianame { font-style: 'Alice', serif;
+              font-size: 33px;
+              font-weight: bold;
+              
+              color: rgb(51, 51, 51); 
+              height: 33px;
+              text-align: center;
+              
+
+}
+#novembertext {text-align: center;
+                font-style: italic; 
+                font-size: 12px;         
+}
+
+
+.centertext { max-width: 66.6%;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+  }
+
+.center {
+    max-width: 100%;
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.container {
+    max-width: 850px;
+    height: 500px;
+    display: relative;
+}
+.container img {  display: block;
+                  width: 1020px;
+
+}
+
+.box {
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+       	
+
+    }
+
+ h1 {
+ 		font-weight: 45%;
+ 		font-family: 'Alice', serif;
+
+ }
+.box .text{
+
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 30%; /* Adjust this value to move the positioned div up and down */
+        left: 180px;
+        text-align: center;
+        width: 65%;/* Set the width of the positioned div */
+        color: white;
+        font-family: 'Miriam Libre', sans-serif;
+        font-size: 20px;
+		    
+}
+
+#topphrase { max-width: 100%;
+              max-height: 100%;
+
+			
+ }
+
+.headerimg {
+             max-height: 100%;
+
+                   
+}
+
+.wrapper { 	width: 70%;
+          	margin-left: auto;
+         		margin-right: auto;
+         		padding: 10px;
+         		background-color: white;
+        		min-width: 700px;
+       	 	  max-width: 1024px;
+      		
+}
+
+
+
+mark { background-color: #444F45;
+		color: white;
+}
+
+h3 {font-family: 'Zilla Slab Highlight', cursive;
+		color: rgb(51, 51, 51);
+	font-size: : 23px;
+	line-height: 32px;
+	}
+i { background-color: yellow;
+    font-weight: bold; }
+
+p { font-size: 20px;
+    }
+
+h3 { font-size: 35px; }
+
+a { text-decoration: none; }]
